@@ -1,0 +1,48 @@
+//
+//  PrefixHeader.pch
+//  XLFormTest
+//
+//  Created by 纵昂 on 2020/3/13.
+//  Copyright © 2020 https://github.com/ZongAng123. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+//头文件
+#import "XLForm.h" // 库
+#import <MJRefresh.h>
+#import <MJExtension/MJExtension.h>
+#import <AFNetworking.h>
+#import <YYModel.h>
+#import <Masonry.h>
+#import "SVProgressHUD.h"
+#import "Factory.h"
+
+
+
+//域名
+#define BASEURL @"http://c.m.163.com"
+
+
+// 屏幕尺寸
+#define WLScreenBounds [UIScreen mainScreen].bounds
+#define SCREEN_HEIGHT                      [UIScreen mainScreen].bounds.size.height
+#define SCREEN_WIDTH                       [UIScreen mainScreen].bounds.size.width
+#define SCALE_6                                                   (SCREEN_WIDTH / 375)
+
+#define NAVBARH ([[UIApplication sharedApplication] statusBarFrame].size.height + 44)
+#define TABBARH 49.0f
+#define SEGMENT 29.0f
+
+#define FONTMAX 20.0
+#define FONTMIN 17.0
+#define PADDING 12.0
+
+#define ScreenSizeWidth ([UIScreen mainScreen].bounds.size.width)
+#define ScreenSizeHeight ([UIScreen mainScreen].bounds.size.height)
+
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */

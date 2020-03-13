@@ -1,0 +1,13 @@
+platform:ios,'10.0'
+target‘XLFormTest’do
+pod 'AFNetworking'
+pod 'YTKNetwork'
+pod 'YYModel'
+pod 'MBProgressHUD'
+pod 'Masonry'
+pod 'MJRefresh'
+pod 'SDWebImage'
+pod 'SVProgressHUD' 
+pod 'MJExtension'
+pod 'XLForm'
+end

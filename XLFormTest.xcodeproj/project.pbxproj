@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,6 +16,18 @@
 		740EF419241AF7A7009A27A2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 740EF418241AF7A7009A27A2 /* main.m */; };
 		740EF423241AF7A7009A27A2 /* XLFormTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 740EF422241AF7A7009A27A2 /* XLFormTestTests.m */; };
 		740EF42E241AF7A7009A27A2 /* XLFormTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 740EF42D241AF7A7009A27A2 /* XLFormTestUITests.m */; };
+		740EF43D241AFA28009A27A2 /* ZAGoodsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 740EF43C241AFA28009A27A2 /* ZAGoodsViewController.m */; };
+		740EF440241AFA43009A27A2 /* ZARecipientsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 740EF43F241AFA43009A27A2 /* ZARecipientsController.m */; };
+		740EF446241AFDB0009A27A2 /* ZARequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 740EF445241AFDB0009A27A2 /* ZARequest.m */; };
+		740EF449241AFDE3009A27A2 /* BaseNetRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 740EF448241AFDE3009A27A2 /* BaseNetRequest.m */; };
+		740EF44F241AFE47009A27A2 /* Factory.m in Sources */ = {isa = PBXBuildFile; fileRef = 740EF44C241AFE47009A27A2 /* Factory.m */; };
+		740EF450241AFE47009A27A2 /* UploadIWithAFNApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 740EF44D241AFE47009A27A2 /* UploadIWithAFNApi.m */; };
+		740EF454241B024F009A27A2 /* ZAXFormPickerRecipienCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 740EF453241B024F009A27A2 /* ZAXFormPickerRecipienCell.m */; };
+		740EF458241B047A009A27A2 /* XInWenApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 740EF457241B047A009A27A2 /* XInWenApi.m */; };
+		740EF45B241B050E009A27A2 /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 740EF45A241B050E009A27A2 /* TwoViewController.m */; };
+		740EF45E241B0547009A27A2 /* ZANewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 740EF45D241B0547009A27A2 /* ZANewCell.m */; };
+		740EF461241B056C009A27A2 /* NewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 740EF460241B056C009A27A2 /* NewModel.m */; };
+		92018685A1040CAB3476DD24 /* libPods-XLFormTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AC9E176E9FD442A0C0C1487F /* libPods-XLFormTest.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +66,32 @@
 		740EF429241AF7A7009A27A2 /* XLFormTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XLFormTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		740EF42D241AF7A7009A27A2 /* XLFormTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLFormTestUITests.m; sourceTree = "<group>"; };
 		740EF42F241AF7A7009A27A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		740EF43B241AFA28009A27A2 /* ZAGoodsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZAGoodsViewController.h; sourceTree = "<group>"; };
+		740EF43C241AFA28009A27A2 /* ZAGoodsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZAGoodsViewController.m; sourceTree = "<group>"; };
+		740EF43E241AFA43009A27A2 /* ZARecipientsController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZARecipientsController.h; sourceTree = "<group>"; };
+		740EF43F241AFA43009A27A2 /* ZARecipientsController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZARecipientsController.m; sourceTree = "<group>"; };
+		740EF442241AFC8E009A27A2 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		740EF444241AFDB0009A27A2 /* ZARequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZARequest.h; sourceTree = "<group>"; };
+		740EF445241AFDB0009A27A2 /* ZARequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZARequest.m; sourceTree = "<group>"; };
+		740EF447241AFDE3009A27A2 /* BaseNetRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseNetRequest.h; sourceTree = "<group>"; };
+		740EF448241AFDE3009A27A2 /* BaseNetRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseNetRequest.m; sourceTree = "<group>"; };
+		740EF44B241AFE47009A27A2 /* UploadIWithAFNApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UploadIWithAFNApi.h; sourceTree = "<group>"; };
+		740EF44C241AFE47009A27A2 /* Factory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Factory.m; sourceTree = "<group>"; };
+		740EF44D241AFE47009A27A2 /* UploadIWithAFNApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UploadIWithAFNApi.m; sourceTree = "<group>"; };
+		740EF44E241AFE47009A27A2 /* Factory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Factory.h; sourceTree = "<group>"; };
+		740EF452241B024F009A27A2 /* ZAXFormPickerRecipienCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZAXFormPickerRecipienCell.h; sourceTree = "<group>"; };
+		740EF453241B024F009A27A2 /* ZAXFormPickerRecipienCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZAXFormPickerRecipienCell.m; sourceTree = "<group>"; };
+		740EF456241B047A009A27A2 /* XInWenApi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XInWenApi.h; sourceTree = "<group>"; };
+		740EF457241B047A009A27A2 /* XInWenApi.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XInWenApi.m; sourceTree = "<group>"; };
+		740EF459241B050E009A27A2 /* TwoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TwoViewController.h; sourceTree = "<group>"; };
+		740EF45A241B050E009A27A2 /* TwoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwoViewController.m; sourceTree = "<group>"; };
+		740EF45C241B0547009A27A2 /* ZANewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZANewCell.h; sourceTree = "<group>"; };
+		740EF45D241B0547009A27A2 /* ZANewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZANewCell.m; sourceTree = "<group>"; };
+		740EF45F241B056C009A27A2 /* NewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewModel.h; sourceTree = "<group>"; };
+		740EF460241B056C009A27A2 /* NewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewModel.m; sourceTree = "<group>"; };
+		894E486BF0CBBDD01CF965FF /* Pods-XLFormTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XLFormTest.release.xcconfig"; path = "Target Support Files/Pods-XLFormTest/Pods-XLFormTest.release.xcconfig"; sourceTree = "<group>"; };
+		ABDA0821017170070C907030 /* Pods-XLFormTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XLFormTest.debug.xcconfig"; path = "Target Support Files/Pods-XLFormTest/Pods-XLFormTest.debug.xcconfig"; sourceTree = "<group>"; };
+		AC9E176E9FD442A0C0C1487F /* libPods-XLFormTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XLFormTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +99,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92018685A1040CAB3476DD24 /* libPods-XLFormTest.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +120,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		55667AE8ED2F18B6C2E3429D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ABDA0821017170070C907030 /* Pods-XLFormTest.debug.xcconfig */,
+				894E486BF0CBBDD01CF965FF /* Pods-XLFormTest.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		740EF3FA241AF7A5009A27A2 = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +136,8 @@
 				740EF421241AF7A7009A27A2 /* XLFormTestTests */,
 				740EF42C241AF7A7009A27A2 /* XLFormTestUITests */,
 				740EF404241AF7A5009A27A2 /* Products */,
+				55667AE8ED2F18B6C2E3429D /* Pods */,
+				E90A63E7CDE0C87E4739EF84 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,12 +154,17 @@
 		740EF405241AF7A5009A27A2 /* XLFormTest */ = {
 			isa = PBXGroup;
 			children = (
+				740EF443241AFD90009A27A2 /* 封装网络请求 */,
+				740EF441241AFC65009A27A2 /* 上传表单应用 */,
 				740EF406241AF7A5009A27A2 /* AppDelegate.h */,
 				740EF407241AF7A5009A27A2 /* AppDelegate.m */,
 				740EF409241AF7A5009A27A2 /* SceneDelegate.h */,
 				740EF40A241AF7A5009A27A2 /* SceneDelegate.m */,
 				740EF40C241AF7A5009A27A2 /* ViewController.h */,
 				740EF40D241AF7A5009A27A2 /* ViewController.m */,
+				740EF43E241AFA43009A27A2 /* ZARecipientsController.h */,
+				740EF43F241AFA43009A27A2 /* ZARecipientsController.m */,
+				740EF442241AFC8E009A27A2 /* PrefixHeader.pch */,
 				740EF40F241AF7A5009A27A2 /* Main.storyboard */,
 				740EF412241AF7A7009A27A2 /* Assets.xcassets */,
 				740EF414241AF7A7009A27A2 /* LaunchScreen.storyboard */,
@@ -137,6 +192,72 @@
 			path = XLFormTestUITests;
 			sourceTree = "<group>";
 		};
+		740EF441241AFC65009A27A2 /* 上传表单应用 */ = {
+			isa = PBXGroup;
+			children = (
+				740EF455241B0426009A27A2 /* B页面 */,
+				740EF451241B0224009A27A2 /* 传值 */,
+				740EF43B241AFA28009A27A2 /* ZAGoodsViewController.h */,
+				740EF43C241AFA28009A27A2 /* ZAGoodsViewController.m */,
+			);
+			path = "上传表单应用";
+			sourceTree = "<group>";
+		};
+		740EF443241AFD90009A27A2 /* 封装网络请求 */ = {
+			isa = PBXGroup;
+			children = (
+				740EF44A241AFE47009A27A2 /* 上传图片 */,
+				740EF444241AFDB0009A27A2 /* ZARequest.h */,
+				740EF445241AFDB0009A27A2 /* ZARequest.m */,
+				740EF447241AFDE3009A27A2 /* BaseNetRequest.h */,
+				740EF448241AFDE3009A27A2 /* BaseNetRequest.m */,
+			);
+			path = "封装网络请求";
+			sourceTree = "<group>";
+		};
+		740EF44A241AFE47009A27A2 /* 上传图片 */ = {
+			isa = PBXGroup;
+			children = (
+				740EF44B241AFE47009A27A2 /* UploadIWithAFNApi.h */,
+				740EF44D241AFE47009A27A2 /* UploadIWithAFNApi.m */,
+				740EF44E241AFE47009A27A2 /* Factory.h */,
+				740EF44C241AFE47009A27A2 /* Factory.m */,
+			);
+			path = "上传图片";
+			sourceTree = "<group>";
+		};
+		740EF451241B0224009A27A2 /* 传值 */ = {
+			isa = PBXGroup;
+			children = (
+				740EF452241B024F009A27A2 /* ZAXFormPickerRecipienCell.h */,
+				740EF453241B024F009A27A2 /* ZAXFormPickerRecipienCell.m */,
+			);
+			path = "传值";
+			sourceTree = "<group>";
+		};
+		740EF455241B0426009A27A2 /* B页面 */ = {
+			isa = PBXGroup;
+			children = (
+				740EF456241B047A009A27A2 /* XInWenApi.h */,
+				740EF457241B047A009A27A2 /* XInWenApi.m */,
+				740EF459241B050E009A27A2 /* TwoViewController.h */,
+				740EF45A241B050E009A27A2 /* TwoViewController.m */,
+				740EF45C241B0547009A27A2 /* ZANewCell.h */,
+				740EF45D241B0547009A27A2 /* ZANewCell.m */,
+				740EF45F241B056C009A27A2 /* NewModel.h */,
+				740EF460241B056C009A27A2 /* NewModel.m */,
+			);
+			path = "B页面";
+			sourceTree = "<group>";
+		};
+		E90A63E7CDE0C87E4739EF84 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC9E176E9FD442A0C0C1487F /* libPods-XLFormTest.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,9 +265,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 740EF432241AF7A7009A27A2 /* Build configuration list for PBXNativeTarget "XLFormTest" */;
 			buildPhases = (
+				4ACD0A4CA133293B39AD6F7E /* [CP] Check Pods Manifest.lock */,
 				740EF3FF241AF7A5009A27A2 /* Sources */,
 				740EF400241AF7A5009A27A2 /* Frameworks */,
 				740EF401241AF7A5009A27A2 /* Resources */,
+				07CDFF5B6837F3BFBA04A4F1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -262,15 +385,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		07CDFF5B6837F3BFBA04A4F1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-XLFormTest/Pods-XLFormTest-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-XLFormTest/Pods-XLFormTest-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-XLFormTest/Pods-XLFormTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4ACD0A4CA133293B39AD6F7E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XLFormTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		740EF3FF241AF7A5009A27A2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				740EF45B241B050E009A27A2 /* TwoViewController.m in Sources */,
+				740EF440241AFA43009A27A2 /* ZARecipientsController.m in Sources */,
+				740EF454241B024F009A27A2 /* ZAXFormPickerRecipienCell.m in Sources */,
+				740EF44F241AFE47009A27A2 /* Factory.m in Sources */,
 				740EF40E241AF7A5009A27A2 /* ViewController.m in Sources */,
+				740EF450241AFE47009A27A2 /* UploadIWithAFNApi.m in Sources */,
+				740EF43D241AFA28009A27A2 /* ZAGoodsViewController.m in Sources */,
+				740EF45E241B0547009A27A2 /* ZANewCell.m in Sources */,
 				740EF408241AF7A5009A27A2 /* AppDelegate.m in Sources */,
 				740EF419241AF7A7009A27A2 /* main.m in Sources */,
 				740EF40B241AF7A5009A27A2 /* SceneDelegate.m in Sources */,
+				740EF458241B047A009A27A2 /* XInWenApi.m in Sources */,
+				740EF449241AFDE3009A27A2 /* BaseNetRequest.m in Sources */,
+				740EF461241B056C009A27A2 /* NewModel.m in Sources */,
+				740EF446241AFDB0009A27A2 /* ZARequest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,11 +613,14 @@
 		};
 		740EF433241AF7A7009A27A2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABDA0821017170070C907030 /* Pods-XLFormTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7BADQA5FST;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/XLFormTest/PrefixHeader.pch";
 				INFOPLIST_FILE = XLFormTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -454,11 +633,14 @@
 		};
 		740EF434241AF7A7009A27A2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 894E486BF0CBBDD01CF965FF /* Pods-XLFormTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7BADQA5FST;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/XLFormTest/PrefixHeader.pch";
 				INFOPLIST_FILE = XLFormTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
